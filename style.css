@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Primary */
+* { 
+    outline: 1px solid black;
+}
+
 body { 
     height: 100vh;
     font-family: "Roboto", sans-serif;
@@ -24,14 +28,15 @@ img {
 /* IDs and Classes */
 .menu { 
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: center;
+    padding: 20px;
 }
 
 .container-one { 
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .heading { 
@@ -41,4 +46,14 @@ img {
 
 .text { 
     font-size: 18px;
+}
+
+.content { 
+    width: 420px;
+}
+
+.box-one { 
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
 }
