@@ -2,6 +2,9 @@
 /* Primary */
 * { 
     outline: 1px solid black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body { 
@@ -11,8 +14,6 @@ body {
 
 ul { 
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
 }
 
@@ -25,11 +26,20 @@ img {
     width: 300px;
 }
 
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
 /* IDs and Classes */
 .menu { 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+    width: 750px;
 }
 
 .container-one { 
@@ -50,10 +60,4 @@ img {
 
 .content { 
     width: 420px;
-}
-
-.box-one { 
-    width: 750px;
-    display: flex;
-    justify-content: space-between;
 }
