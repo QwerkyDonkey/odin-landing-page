@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Primary */
 * { 
-    /* outline: 1px solid black; */
+    /* outline: 1px solid white; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -25,7 +25,8 @@ a {
 }
 
 img { 
-    width: 300px;
+    width: 338px;
+    height: auto;
 }
 
 header { 
@@ -39,7 +40,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
+    padding: 60px;
 }
 
 .box { 
@@ -47,7 +49,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    width: 780px;
+    width: 840px;
 }
 
 .heading { 
@@ -72,4 +74,17 @@ header {
 
 header, .container-one { 
     background-color: #1f2937;
+}
+
+.text, #btn-one { 
+    margin-top: 12px;
+}
+
+#btn-one { 
+    padding: 8px 33px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 600;
 }
