@@ -146,5 +146,44 @@ header, .container-one {
 
 .author { 
     align-self: flex-end;
+    font-weight: 600;
 }
 
+.container-four { 
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-four { 
+    background-color: #3882f6;
+    width: 90vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.subtitle, .text-three { 
+    color: #f9faf8;
+}
+
+.subtitle { 
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.sign-up-btn { 
+    display: flex;
+    align-items: center;
+}
+
+.btn-two { 
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 8px 35px;
+    color: #f9faf8;
+    font-weight: 600;
+}
