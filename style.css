@@ -84,7 +84,6 @@ header, .container-one {
 #btn-one { 
     padding: 8px 33px;
     border: 0;
-    border-radius: 10px;
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 600;
@@ -106,11 +105,9 @@ header, .container-one {
     width: 150px;
     height: 150px;
     border: 3px solid #3882f6;
-    border-radius: 10px;
 }
 
 .text-two {
-    margin-top: 10px;
     text-align: center;
     width: 150px;
 }
@@ -120,4 +117,30 @@ header, .container-one {
     font-weight: 900;
     color: #1f2937;
     margin: 40px;
+}
+
+.container-three { 
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.box-three { 
+    display: flex;
+    flex-direction: column;
+    width: 76vh;
+    gap: 10px;
+}
+
+.quote { 
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author { 
+    align-self: flex-end;
 }
