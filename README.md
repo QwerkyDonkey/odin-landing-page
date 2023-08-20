@@ -1,2 +1,2 @@
-# odin-landing-page
-newspaper: Digital Buggu
+Credit
+- Newspaper Image: by Digital Buggu
