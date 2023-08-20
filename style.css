@@ -50,7 +50,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    height: 40vh;
+    height: 45vh;
 }
 
 .box-one { 
@@ -100,7 +100,7 @@ header, .container-one {
 }
 
 .container-two { 
-    height: 40vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +132,7 @@ header, .container-one {
 }
 
 .container-three { 
-    height: 40vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +168,7 @@ header, .container-one {
 .box-four { 
     background-color: #3882f6;
     width: 90vh;
-    padding: 50px;
+    padding: 45px;
     display: flex;
     justify-content: space-around;
     border-radius: 10px;
